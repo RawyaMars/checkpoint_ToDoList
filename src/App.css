@@ -1,0 +1,116 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: rgb(220, 165, 14);
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+/* MDBRow{
+  display: inline-flex;
+  justify-content: center;
+  width:1300px;
+} */
+.vh-100{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.row-cols-lg-auto{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  margin: 30px;
+}
+#Btn_submit {
+  border: none;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: black;
+  font-weight: 900;
+  font-Size: 12px;
+  width: 60px;
+  height: 30px;
+  background-color: #ffb703;
+  border-radius: 50px;
+  
+}
+#Btn_Get{
+  border: none;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: black;
+  font-weight: 900;
+  font-Size: 12px;
+  width: 90px;
+  height: 30px;
+  background-color: #149fa1;
+  border-radius: 50px;
+}
+#form1{
+  height: 30px;
+  width: 300px;
+  font-size: 12px;
+}
+section{
+  padding: 100px;
+
+}
+.col{
+  margin-right: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.mb-4{width: 1000px;}
+.ms-1,.ms-2{
+  border: none;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: black;
+  font-weight: 900;
+  font-Size: 12px;
+  width: 90px;
+  height: 30px;
+  background-color: #a4a5a3;
+  border-radius: 50px;
+  margin-right: 20px;
+}
+.finished{
+  background-color: #70c553;
+}
+.unfinished{
+  background-color: #c23725;
+}
